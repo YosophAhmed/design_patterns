@@ -1,3 +1,4 @@
+import 'package:design_patterns/widgets/text_editor_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -7,8 +8,10 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(),
+    return const Scaffold(
+      body: Center(
+        child: TextEditorWidget(),
+      ),
     );
   }
 }
