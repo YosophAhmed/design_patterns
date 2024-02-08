@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-import 'package:design_patterns/general_patterns_models/state_design_pattern/states/states_implementaion/second_state.dart';
+import 'package:design_patterns/general_patterns_models/state_design_pattern/states/states_impl/second_state.dart';
 
 import '../../context_model.dart';
 import '../state_interface.dart';
